@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: MozhganP
+  host: MozhganP
+  disk_quota: 1024M
+  services:
+  - MozhganP-cloudantNoSQLDB
